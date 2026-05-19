@@ -7,7 +7,7 @@ readme = "README.md"
 authors = [
     { name = "Alec Vercruysse", email = "vercruysse.alec@gmail.com" }
 ]
-requires-python = ">=3.13"
+requires-python = ">=3.8"
 dependencies = [
     "minimalmodbus>=2.1.1",
 ]
