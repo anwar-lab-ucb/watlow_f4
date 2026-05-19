@@ -1,0 +1,4 @@
+/.agent-shell/
+.dir-locals.el
+uv.lock
+pyrightconfig.json

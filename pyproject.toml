@@ -1,0 +1,25 @@
+[project]
+name = "watlow-f4"
+version = "0.1.0"
+description = "Python driver for the Watlow F4 temperature controller via Modbus RTU"
+license = "MIT"
+readme = "README.md"
+authors = [
+    { name = "Alec Vercruysse", email = "vercruysse.alec@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "minimalmodbus>=2.1.1",
+]
+
+[project.scripts]
+watlow-f4 = "watlow_f4:main"
+
+[build-system]
+requires = ["uv_build>=0.10.11,<0.11.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]
